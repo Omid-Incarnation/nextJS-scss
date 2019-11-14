@@ -6,6 +6,7 @@ export default class MyDocument extends Document {
       <html>
         <Head>
           <title>NEXT JS</title>
+          <link rel="stylesheet" href="/_next/static/style.css" />
         </Head>
         <body>
           <Main />

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import "../SCSS/style.scss";
 import Navbar from "../components/Navbar/Navbar";
 
 const index = () => (

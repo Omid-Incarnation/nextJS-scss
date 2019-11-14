@@ -78,10 +78,53 @@ export default index;
 
 ![STEP 02](/img/03.jpg)
 
-##### STEP 05
+###### STEP 05
 
 ```github
 npm install --save @zeit/next-sass node-sass
 ```
 
 ![STEP 02](/img/04_how_to_add_next_sass.jpg)
+
+###### STEP 06
+
+![STEP 02](/img/05.jpg)
+
+#### add the this stylesheet to the head
+
+```html
+<link rel="stylesheet" href="/_next/static/style.css" />
+```
+
+###### in the \_document.js
+
+```javascript
+import Document, { Head, Main, NextScript, Html } from "next/document";
+
+export default class MyDocument extends Document {
+  render() {
+    return (
+      <html>
+        <Head>
+          <title>NEXT JS</title>
+          <link rel="stylesheet" href="/_next/static/style.css" />
+        </Head>
+        <body>
+          <Main />
+          <NextScript />
+        </body>
+      </html>
+    );
+  }
+}
+```
+
+#### also import the style.scss to the index.js
+
+```javascript
+import "../SCSS/style.scss";
+```
+
+```javascript
+import "../SCSS/style.scss";
+```
