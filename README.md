@@ -73,3 +73,7 @@ const index = () => (
 
 export default index;
 ```
+
+###### STEP 04
+
+![STEP 02](/img/03.jpg)
