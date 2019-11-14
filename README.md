@@ -77,3 +77,11 @@ export default index;
 ###### STEP 04
 
 ![STEP 02](/img/03.jpg)
+
+##### STEP 05
+
+```github
+npm install --save @zeit/next-sass node-sass
+```
+
+![STEP 02](/img/04_how_to_add_next_sass.jpg)
