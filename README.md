@@ -20,4 +20,4 @@ npm i react react-dom next
 
 #### How to add a page in Next JS
 
-![STEP 03](/img/02_how to add a page.jpg)
+![STEP 03](/img/02_how_to_add_a_page.jpg)
